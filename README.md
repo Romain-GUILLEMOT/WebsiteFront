@@ -1,7 +1,7 @@
 # WIP (Work In progress)
 # WebsiteFront
 
-Ce projet représente le frontend de mon site internet personnel, disponible sur [romain-guillemot.dev](https://romain-guillemot.dev). Ce site est dédié à partager mes projets, mon CV, ainsi que mes autres réalisations et passions.
+Ce projet représente le frontend de mon site internet personnel, bientôt disponible sur [romain-guillemot.dev](https://romain-guillemot.dev). Ce site est dédié à partager mes projets, mon CV, ainsi que mes autres réalisations et passions.
 
 ## Fonctionnalités
 
