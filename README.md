@@ -1,6 +1,7 @@
+# WIP (Work In progress)
 # WebsiteFront
 
-Ce projet représente le frontend de mon site internet personnel, hébergé à [romain-guillemot.dev](https://romain-guillemot.dev). Ce site est dédié à partager mes projets, mon CV, ainsi que mes autres réalisations et passions.
+Ce projet représente le frontend de mon site internet personnel, disponible sur [romain-guillemot.dev](https://romain-guillemot.dev). Ce site est dédié à partager mes projets, mon CV, ainsi que mes autres réalisations et passions.
 
 ## Fonctionnalités
 
@@ -12,7 +13,6 @@ Ce projet représente le frontend de mon site internet personnel, hébergé à [
 
 - **SvelteKit** : Framework pour construire des applications modernes côté client et côté serveur.
 - **Bun** : Gestionnaire de paquets, compilateur, et environnement d'exécution JavaScript performant.
-- **GitHub** : Hébergement et gestion du code source.
   
 ## Installation Locale
 
@@ -35,11 +35,15 @@ Pour cloner et lancer ce projet en local :
     bun run dev
     ```
 
-Le site sera accessible localement à l'adresse `http://localhost:3000`.
+Le site sera accessible à l'adresse `http://localhost:3000`.
 
-## Déploiement
+## Capture d'Écran
 
-Le déploiement peut se faire avec un hébergeur compatible Node.js, ou via une plateforme qui supporte SvelteKit (comme Vercel, Netlify, etc.). Assurez-vous de suivre les directives spécifiques au déploiement SvelteKit pour votre hébergeur.
+![Capture d'écran](https://romain-guillemot.dev/screenshot.jpg)
+
+## Reprise et Modification du Projet
+
+Ce projet est libre d'être repris et modifié par tout le monde, à condition de ne pas l'utiliser à des fins illégales.
 
 ## Auteur
 
