@@ -6,3 +6,4 @@
     @apply text-gray-900;
 }
 
+.border-b-05 {     border-bottom-width: 0.5px; }
