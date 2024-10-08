@@ -2,7 +2,7 @@
 	import Header from '../components/Header.svelte';
 	import '../app.css';
 	import { page } from '$app/stores';
-	import Footer from '../Footer.svelte';
+	import Footer from '../components/Footer.svelte';
 
 	let showHeader = false;
 
@@ -14,12 +14,11 @@
 
 <div class="app">
 	{#if showHeader}
-	<Header />
+		<Header />
 	{/if}
 	<main>
 		<slot />
 	</main>
 
-<Footer/>
+	<Footer/>
 </div>
-
