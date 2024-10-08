@@ -1,5 +1,5 @@
 <script>
-	import Header from './Header.svelte';
+	import Header from '../components/Header.svelte';
 	import '../app.css';
 	import { page } from '$app/stores';
 	import Footer from '../Footer.svelte';
