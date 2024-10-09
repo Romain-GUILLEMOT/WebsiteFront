@@ -77,14 +77,14 @@
 				{
 					titre: "Développement de Plugins Minecraft",
 					description: "Initiation au développement de plugins Minecraft en Java pour la gestion d'un serveur privé.",
-					image: "/img/past/minecraft.webp",
+					image: "/img/past/minecraft.png",
 					couleur: "#34D399",
 					tags: ["Minecraft", "Java"]
 				},
 				{
 					titre: "Création d'un Site Web Statique",
 					description: "Développement d'un site web statique en HTML/CSS pour accompagner le serveur Minecraft, avec acquisition des bases des langages front-end.",
-					image: "/img/past/html.webp",
+					image: "/img/past/html.png",
 					couleur: "#FF5733",
 					tags: ["HTML", "CSS"]
 				},
