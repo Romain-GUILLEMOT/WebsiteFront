@@ -31,8 +31,8 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Romain GUILLEMOT - Accueil</title>
+	<meta name="description" content="Projets, Parcours et Informations sur Romain GUILLEMOT" />
 </svelte:head>
 <div>
 </div>

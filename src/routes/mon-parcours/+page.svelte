@@ -407,6 +407,11 @@
 
 </script>
 
+<svelte:head>
+	<title>Romain GUILLEMOT - Mon parcours</title>
+	<meta name="description" content="Parcours de  Romain GUILLEMOT" />
+</svelte:head>
+
 <main>
 	<div class="mx-auto max-w-3xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
 		<div class="py-24 text-center">
