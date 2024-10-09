@@ -28,6 +28,10 @@
 		"linux": { bg: "bg-orange-500", text: "text-white" },
 		"minecraft": { bg: "bg-green-400", text: "text-white" },
 		"nodejs": { bg: "bg-green-500", text: "text-white" },
+		"unraid": { bg: "bg-gray-800", text: "text-white" },
+		"nas": { bg: "bg-yellow-500", text: "text-black" },
+		"dns": { bg: "bg-green-600", text: "text-white" },
+		"dhcp": { bg: "bg-red-500", text: "text-white" },
 		"ozlaloc": { bg: "bg-blue-600", text: "text-white" },
 		"php": { bg: "bg-indigo-500", text: "text-white" },
 		"panel de jeux": { bg: "bg-yellow-500", text: "text-black" },
@@ -71,23 +75,23 @@
 			age: "9 ans - 10 ans",
 			details: [
 				{
-					titre: "Minecraft",
-					description: "J'ai voulu ouvrir un serveur Minecraft, je me suis donc lancé dans le développement de plugins Minecraft en Java.",
+					titre: "Développement de Plugins Minecraft",
+					description: "Initiation au développement de plugins Minecraft en Java pour la gestion d'un serveur privé.",
 					image: "/img/past/minecraft.webp",
 					couleur: "#34D399",
 					tags: ["Minecraft", "Java"]
 				},
 				{
-					titre: "HTML/CSS",
-					description: "Pour le serveur Minecraft, j'avais aussi créé un site statique (HTML/CSS) et appris les bases de ces langages de description.",
+					titre: "Création d'un Site Web Statique",
+					description: "Développement d'un site web statique en HTML/CSS pour accompagner le serveur Minecraft, avec acquisition des bases des langages front-end.",
 					image: "/img/past/html.webp",
 					couleur: "#FF5733",
 					tags: ["HTML", "CSS"]
 				},
 				{
-					titre: "Virtualisation et VPS",
-					description: "Création de mes premières VMs avec VirtualBox et apprentissage de Linux. Location de mon premier VPS chez Dedibox, apprentissage de Linux.",
-					image: "/img/past/linux.webp",
+					titre: "Initiation à la Virtualisation",
+					description: "Création de machines virtuelles avec VirtualBox et gestion de mon premier VPS sous Linux.",
+					image: "/img/past/virtualbox.png",
 					couleur: "#1E90FF",
 					tags: ["Virtualisation", "Linux", "VPS"]
 				}
@@ -98,16 +102,16 @@
 			age: "10 ans - 11 ans",
 			details: [
 				{
-					titre: "Mods Minecraft",
-					description: "Création de mon premier mod Minecraft en Java.",
-					image: "/img/past/minecraft-mods.webp",
+					titre: "Création de Mods Minecraft",
+					description: "Développement de mon premier mod Minecraft en Java, consolidant mes compétences en programmation.",
+					image: "/img/past/java.png",
 					couleur: "#a634d3",
 					tags: ["Java", "Minecraft"]
 				},
 				{
-					titre: "Rootage de téléphone",
-					description: "Premier rootage de téléphone, apprentissage des notions de bootloader, etc.",
-					image: "/img/past/phone-root.webp",
+					titre: "Rootage de Téléphone",
+					description: "Expérience pratique dans le rootage de téléphone et compréhension des concepts de bootloader.",
+					image: "/img/past/lineage.png",
 					couleur: "#FF5733",
 					tags: ["Root", "Android", "Bootloader"]
 				}
@@ -119,8 +123,8 @@
 			details: [
 				{
 					titre: "Réseaux et VPN",
-					description: "Bases réseaux, apprentissage du protocole IP pour la configuration de VPN et de tunnels GRE.",
-					image: "/img/past/network.webp",
+					description: "Apprentissage des concepts réseaux et mise en place de VPN avec protocoles IP et tunnels GRE.",
+					image: "/img/past/wireguard.png",
 					couleur: "#1E90FF",
 					tags: ["Réseaux", "VPN", "Protocole IP"]
 				}
@@ -131,16 +135,16 @@
 			age: "12 ans - 13 ans",
 			details: [
 				{
-					titre: "Pterodactyl",
-					description: "Première prise en main du panel de jeux Pterodactyl utilisant Docker.",
-					image: "/img/past/pterodactyl.webp",
+					titre: "Panel de Jeux Pterodactyl",
+					description: "Première utilisation du panel de jeux Pterodactyl reposant sur Docker.",
+					image: "/img/past/pterodactyl.png",
 					couleur: "#FFA500",
 					tags: ["Docker", "Pterodactyl", "Panel de jeux"]
 				},
 				{
 					titre: "VMware Workstation",
-					description: "Prise en main de VMware Workstation Pro pour une meilleure gestion des VMs.",
-					image: "/img/past/vmware.webp",
+					description: "Maîtrise de VMware Workstation pour une gestion optimisée des machines virtuelles.",
+					image: "/img/past/vmware.png",
 					couleur: "#FF5733",
 					tags: ["VMware Workstation", "Virtualisation"]
 				}
@@ -151,16 +155,16 @@
 			age: "13 ans - 14 ans",
 			details: [
 				{
-					titre: "PureCPU",
-					description: "Aide aux clients de PureCPU (entreprise fermée) à configurer leurs réseaux et installer des panels de jeux ou autres services sur Linux (Linux avancé et réseaux débutant).",
-					image: "/img/past/purecpu.webp",
+					titre: "Support Technique chez PureCPU",
+					description: "Assistance aux clients de PureCPU pour la configuration réseau et l'installation de services sous Linux.",
+					image: "/img/past/purecpu.png",
 					couleur: "#781eff",
 					tags: ["Linux", "Réseaux", "Support client"]
 				},
 				{
-					titre: "Proxmox",
-					description: "Prise en main de Proxmox pour la gestion des machines virtuelles de PureCPU.",
-					image: "/img/past/proxmox.webp",
+					titre: "Gestion de Machines Virtuelles avec Proxmox",
+					description: "Prise en main de Proxmox pour la gestion des infrastructures virtualisées de PureCPU.",
+					image: "/img/past/proxmox.png",
 					couleur: "#FFA500",
 					tags: ["Proxmox", "Virtualisation"]
 				}
@@ -171,41 +175,40 @@
 			age: "14 ans - 15 ans",
 			details: [
 				{
-					titre: "CapriceHost",
-					description: "Responsable de l'infrastructure réseau, système et web de CapriceHost. Premières prises en main de PHP (Laravel), React et Golang.",
-					image: "/img/past/capricehost.webp",
+					titre: "Responsable Technique chez CapriceHost",
+					description: "Gestion complète des infrastructures réseau, système et web, avec initiation à PHP (Laravel), React et Go.",
+					image: "/img/past/capricehost.png",
 					couleur: "#ff2097",
-					tags: ["Laravel", "React", "GO", "PHP"]
+					tags: ["Laravel", "React", "Go", "PHP"]
 				},
 				{
-					titre: "Bot Discord NodeJS",
-					description: "Création d'un bot Discord avec NodeJS pour CapriceHost.",
-					image: "/img/past/discord-bot.webp",
+					titre: "Bot Discord en NodeJS",
+					description: "Développement d'un bot Discord en NodeJS pour CapriceHost.",
+					image: "/img/past/discordjs.png",
 					couleur: "#34D399",
 					tags: ["NodeJS", "Discord"]
 				},
 				{
-					titre: "Pterodactyl",
-					description: "Création du premier module additionnel pour le panel de jeux Pterodactyl.",
-					image: "/img/past/pterodactyl-mod.webp",
+					titre: "Module Additionnel pour Pterodactyl",
+					description: "Création d'un module personnalisé pour le panel de jeux Pterodactyl.",
+					image: "/img/past/pterodactyl.png",
 					couleur: "#FFA500",
 					tags: ["Panel de jeux", "Laravel", "React", "PHP"]
 				},
 				{
-					titre: "Virtualizor",
-					description: "Prise en main de Virtualizor pour la gestion des machines de CapriceHost.",
-					image: "/img/past/virtualizor.webp",
+					titre: "Gestion de Machines avec Virtualizor",
+					description: "Utilisation de Virtualizor pour la gestion des serveurs de CapriceHost.",
+					image: "/img/past/virtualizor.png",
 					couleur: "#FF5733",
 					tags: ["Virtualizor", "Virtualisation"]
 				},
 				{
-					titre: "TutoEnFolie",
-					description: "Création de TutoEnFolie visant à aider les professeurs de mon lycée à partager leur cours avec le monde (Disparue avec l'incendie de OVH Strasbourg).",
-					image: "/img/past/tutoenfolie.webp",
+					titre: "Création de TutoEnFolie",
+					description: "Conception de TutoEnFolie, une plateforme éducative pour le partage des cours, malheureusement perdue après l'incendie d'OVH.",
+					image: "/img/past/ovhfire.png",
 					couleur: "#FFA500",
 					tags: ["Éducation", "Lycée", "Partage"]
-				},
-
+				}
 			]
 		},
 		{
@@ -213,16 +216,16 @@
 			age: "15 ans - 16 ans",
 			details: [
 				{
-					titre: "Modules Pterodactyl",
-					description: "Première vente de modules additionnels pour Pterodactyl, nécessitant d'améliorer la qualité de mon code en Laravel, React et Go face à la concurrence.",
-					image: "/img/past/pterodactyl-sale.webp",
+					titre: "Vente de Modules Pterodactyl",
+					description: "Première commercialisation de modules pour Pterodactyl, impliquant l'amélioration continue en Laravel, React et Go.",
+					image: "/img/past/pterodactyl.png",
 					couleur: "#FF2D20",
-					tags: ["Pterodactyl", "Laravel", "React", "GO"]
+					tags: ["Pterodactyl", "Laravel", "React", "Go"]
 				},
 				{
-					titre: "Visio conférence avec Gabriel Attal",
-					description: "Visio conférence avec Gabriel Attal au sujet du lycée Simone Veil.",
-					image: "/img/past/gabriel-attal.webp",
+					titre: "Visio-conférence avec Gabriel Attal",
+					description: "Participation à une visio-conférence avec Gabriel Attal sur l'avenir du lycée Simone Veil.",
+					image: "/img/past/teams.png",
 					couleur: "#FF5733",
 					tags: ["Politique", "Éducation"]
 				}
@@ -233,47 +236,47 @@
 			age: "16 ans - 17 ans",
 			details: [
 				{
-					titre: "Développement quotidien",
-					description: "Développement en React, Laravel et Go quotidiennement, grande amélioration des connaissances dans ces langages.",
-					image: "/img/past/dev-everyday.webp",
+					titre: "Développement Intensif",
+					description: "Perfectionnement quotidien en développement avec React, Laravel et Go.",
+					image: "/img/past/golang.png",
 					couleur: "#34D399",
-					tags: ["React", "Laravel", "GO"]
+					tags: ["React", "Laravel", "Go"]
 				},
 				{
-					titre: "CapriceHost",
-					description: "Renforcement des systèmes réseau et de protection pour CapriceHost en réponse aux partenariats avec des YouTubers.",
-					image: "/img/past/youtuber-partnership.webp",
+					titre: "Sécurisation chez CapriceHost",
+					description: "Renforcement des systèmes de sécurité en réponse aux partenariats stratégiques de CapriceHost.",
+					image: "/img/past/capricehost.png",
 					couleur: "#FF5733",
 					tags: ["Réseau", "Sécurité", "CapriceHost"]
 				},
 				{
-					titre: "Festival La Dinguerie 2",
-					description: "Organisation du festival La Dinguerie 2 à Rennes, création d'une borne d'acadé pour cet événement avec un RPI.",
-					image: "/img/past/dinguerie.webp",
+					titre: "Organisation d'Événements - La Dinguerie 2",
+					description: "Organisation du festival La Dinguerie 2 à Rennes, avec développement d'une bande arcade via Raspberry Pi.",
+					image: "/img/past/ding.png",
 					couleur: "#FFA500",
 					tags: ["Événement", "Rennes", "RPI"]
 				},
 				{
-					titre: "Client Web pour la banque Kard",
-					description: "Création d'un client web privé pour la banque Kard.",
-					image: "/img/past/kard.webp",
+					titre: "Développement pour la Banque Kard",
+					description: "Conception d'un client web privé pour la gestion bancaire de Kard.",
+					image: "/img/past/kard.png",
 					couleur: "#34D399",
 					tags: ["Banque", "Web"]
 				},
 				{
-					titre: "Ruche Connectée",
-					description: "Création d'une ruche connectée avec le lycée Simone Veil (Conception 3D à l'électronique au code) qui est maintenant sur la mairie de Liffré.",
-					image: "/img/past/ruche.webp",
+					titre: "Projet Ruche Connectée",
+					description: "Développement d'une ruche connectée au lycée Simone Veil, maintenant installée à la mairie de Liffré.",
+					image: "/img/past/solidworks.png",
 					couleur: "#FF5733",
 					tags: ["Éducation", "Électronique"]
 				},
 				{
-					titre: "Invitation à l'Assemblée nationale",
-					description: "Invitation à l'Assemblée nationale par un député suite à La Dinguerie 2.",
-					image: "/img/past/assemblee.webp",
+					titre: "Invitation à l'Assemblée Nationale",
+					description: "Invitation officielle à l'Assemblée Nationale par un député suite au succès de La Dinguerie 2.",
+					image: "/img/past/anationale.png",
 					couleur: "#FF2D20",
 					tags: ["Politique", "Événement"]
-				},
+				}
 			]
 		},
 		{
@@ -281,52 +284,51 @@
 			age: "17 ans - 18 ans",
 			details: [
 				{
-					titre: "Bagou450",
-					description: "Ouverture de mon entreprise Bagou450 pour la vente de modules liés à Pterodactyl.",
-					image: "/img/past/bagou450.webp",
+					titre: "Lancement de Bagou450",
+					description: "Création de l'entreprise Bagou450, spécialisée dans la vente de modules pour Pterodactyl.",
+					image: "/img/past/bagou450.png",
 					couleur: "#FFA500",
 					tags: ["Entreprise", "Pterodactyl"]
 				},
 				{
-					titre: "Site Bagou450",
-					description: "Création du site de Bagou450 avec système de licence de vente en ligne (React + Laravel).",
-					image: "/img/past/bagou450-site.webp",
+					titre: "Développement du Site Web de Bagou450",
+					description: "Conception du site de Bagou450 avec un système de licences et de vente en ligne.",
+					image: "/img/past/bagou450.png",
 					couleur: "#34D399",
 					tags: ["React", "Laravel"]
 				},
 				{
-					titre: "Bot Discord Golang",
-					description: "Création d'un bot Discord en Golang pour Bagou450.",
-					image: "/img/past/discord-bot-go.webp",
+					titre: "Bot Discord en Go",
+					description: "Développement d'un bot Discord en Go pour automatiser les services de Bagou450.",
+					image: "/img/past/golang.png",
 					couleur: "#FF2D20",
-					tags: ["GO"]
+					tags: ["Go"]
 				},
 				{
-					titre: "Ozlaloc",
-					description: "Contrat avec Ozlaloc pour améliorer leurs différents WordPress et créer un site en React avec un backend Laravel.",
-					image: "/img/past/ozlaloc-site.webp",
+					titre: "Collaboration avec Ozlaloc",
+					description: "Développement du site web d'Ozlaloc en React et Laravel, ainsi que la gestion de leurs plateformes WordPress.",
+					image: "/img/past/ozlaloc.png",
 					couleur: "#1E90FF",
 					tags: ["WordPress", "React", "Laravel"]
 				},
 				{
-					titre: "SupDeVinci",
-					description: "Entrée à SupDeVinci en tant que première année de bachelor à Chantepie.",
-					image: "/img/past/supdevinci.webp",
+					titre: "Entrée à SupDeVinci",
+					description: "Inscription en première année de Bachelor à SupDeVinci Chantepie, avec un focus sur les technologies du web.",
+					image: "/img/past/supdevinci.png",
 					couleur: "#FF5733",
 					tags: ["Études", "Bachelor"]
 				},
-
 				{
-					titre: "Agrégation de connexion Internet",
-					description: "Agrégation de connexion Internet via OpenMPTCPRouter, ce qui m'a appris beaucoup de choses en réseaux comme la gestion de sous-réseaux, etc.",
-					image: "/img/past/openmptcprouter.webp",
+					titre: "Agrégation de Connexion Internet",
+					description: "Mise en place d'une agrégation de connexion Internet avec OpenMPTCPRouter pour une gestion avancée des réseaux.",
+					image: "/img/past/omr-logo.png",
 					couleur: "#34D399",
 					tags: ["Réseaux"]
 				},
 				{
-					titre: "Gestion de conteneurs Docker",
-					description: "Gestion de conteneurs Docker via Portainer pour Bagou450.",
-					image: "/img/past/portainer.webp",
+					titre: "Gestion des Conteneurs Docker",
+					description: "Administration de conteneurs Docker via Portainer pour les services de Bagou450.",
+					image: "/img/past/docker.png",
 					couleur: "#1E90FF",
 					tags: ["Docker", "Portainer"]
 				}
@@ -337,66 +339,71 @@
 			age: "18 ans - 19 ans",
 			details: [
 				{
-					titre: "SupDeVinci",
-					description: "Apprentissage de la communication web, expression orale et connaissances de l'entreprise.",
-					image: "/img/past/supdevinci.webp",
+					titre: "Seconde Année à SupDeVinci",
+					description: "Approfondissement de la communication web, expression orale et des connaissances d'entreprise en deuxième année de bachelor.",
+					image: "/img/past/supdevinci.png",
 					couleur: "#1E90FF",
 					tags: ["Communication", "Études", "Entreprise"]
 				},
 				{
-					titre: "Travail avec NeoSoft",
-					description: "Travail avec NeoSoft dans le contexte du Hackathon 2024 (événement de SupDeVinci) avec début avec K8S, ArgoCD, etc., avec un tag DevOps important.",
-					image: "/img/past/neosoft.webp",
+					titre: "Collaboration avec NeoSoft",
+					description: "Participation au Hackathon 2024 de SupDeVinci en partenariat avec NeoSoft, première expérience avec K8S et ArgoCD.",
+					image: "/img/past/neosoft.png",
 					couleur: "#1E90FF",
 					tags: ["DevOps", "Kubernetes", "Hackathon"]
 				},
 				{
-					titre: "Application Android BagouWaller",
-					description: "Création d'une application Android en React Native BagouWaller pour faire une agrégation de différentes banques.",
-					image: "/img/past/bagouwaller.webp",
+					titre: "Application Android BagouWallet",
+					description: "Développement d'une application Android en React Native pour l'agrégation de comptes bancaires.",
+					image: "/img/past/reactnative.png",
 					couleur: "#34D399",
 					tags: ["React Native", "Banque"]
 				},
 				{
-					titre: "Switch HDMI connecté",
-					description: "Création d'un switch HDMI connecté avec un ESP et du MQTT.",
-					image: "/img/past/switch-hdmi.webp",
+					titre: "Switch HDMI Connecté",
+					description: "Création d'un switch HDMI connecté utilisant un ESP et MQTT pour la gestion à distance.",
+					image: "/img/past/mqtt.png",
 					couleur: "#FFA500",
 					tags: ["ESP", "MQTT"]
 				},
 				{
-					titre: "Assistant vocal AI",
-					description: "Création d'un assistant vocal AI pour Home Assistant.",
-					image: "/img/past/assistant-vocal.webp",
+					titre: "Assistant Vocal IA",
+					description: "Développement d'un assistant vocal basé sur l'IA pour l'intégration dans Home Assistant.",
+					image: "/img/past/ha.png",
 					couleur: "#FF5733",
 					tags: ["IA", "Domotique", "Home Assistant"]
 				},
 				{
-					titre: "Ozlaloc",
-					description: "Fermeture de Bagou450 et CDD avec Ozlaloc pour se concentrer sur la création de leur site internet jusqu'en 2025.",
-					image: "/img/past/ozlaloc-cdd.webp",
+					titre: "CDD chez Ozlaloc",
+					description: "Focus sur le développement du site web d'Ozlaloc après la fermeture de Bagou450, en CDD jusqu'en 2025.",
+					image: "/img/past/ozlaloc.png",
 					couleur: "#FFA500",
 					tags: ["CDD", "Ozlaloc", "Développement web"]
 				},
 				{
-					titre: "SupDeVinci - Deuxième année",
-					description: "Deuxième année de bachelor à SupDeVinci, apprentissage de la gestion de projet de groupe.",
-					image: "/img/past/supdevinci-2nd-year.webp",
+					titre: "Homelab",
+					description: "Implémentation d'un Homelab basé sur Unraid, incluant la gestion de NAS, conteneurs Docker, DNS, DHCP, et autres services essentiels.",
+					image: "/img/past/unraid.png",
+					couleur: "#1E90FF",
+					tags: ["Unraid", "NAS", "Docker", "DNS", "DHCP"]
+				},
+				{
+					titre: "Deuxième Année à SupDeVinci",
+					description: "Études approfondies en gestion de projet de groupe dans le cadre de ma deuxième année de bachelor.",
+					image: "/img/past/supdevinci.png",
 					couleur: "#34D399",
 					tags: ["Gestion de projet", "Études"]
 				},
 				{
-					titre: "RomainGuillemot.dev",
-					description: "Création du site romainguillemot.dev pour servir de portfolio et CV en ligne.",
-					image: "/img/past/romain-site.webp",
+					titre: "Portfolio en Ligne",
+					description: "Création du site romain-guillemot.dev comme portfolio et CV professionnel en ligne.",
+					image: "/img/logo.png",
 					couleur: "#FF2D20",
 					tags: ["Portfolio", "CV"]
-				},
-
+				}
 			]
 		}
 	];
-
 
 </script>
 
@@ -417,7 +424,7 @@
 
 			{#each anneeData.details as detail}
 				<div class="mb-4 mt-4">
-					<img src="{detail.image}" alt="{detail.titre}" class="h-16 w-16 mx-auto mb-2" />
+					<img src="{detail.image}" alt="{detail.titre}" class="max-h-24 min-h-16 min-w-16 max-w-24 mx-auto mb-2" />
 					<h3 class="text-xl font-bold">{detail.titre}</h3>
 					<div class="my-2 ">
 						{#each detail.tags as tag}
