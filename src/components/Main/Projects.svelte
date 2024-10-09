@@ -1,7 +1,3 @@
-<script>
-	import { goto } from '$app/navigation';
-</script>
-
 <section aria-labelledby="category-heading" class="bg-gray-50">
 	<div class="mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8">
 		<div class="sm:flex sm:items-baseline sm:justify-between">
@@ -61,8 +57,8 @@
 		</div>
 
 		<div class="mt-6 sm:hidden">
-			<a href="#" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">
-				Browse all categories
+			<a href="/mes-projets" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">
+				Voir tous les projets
 				<span aria-hidden="true"> &rarr;</span>
 			</a>
 		</div>
