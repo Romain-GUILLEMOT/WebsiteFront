@@ -1,4 +1,4 @@
-name = "${CLOUDFLARE_NAME}"
+name = "websitefront"
 account_id = "${CLOUDFLARE_ID}"
 
 main = "./.cloudflare/worker.js"
