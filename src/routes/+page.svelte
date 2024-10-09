@@ -1,7 +1,7 @@
 <script>
 	import Skills from '../components/Main/Skills.svelte';
 	import { onMount } from 'svelte';
-	import { fly } from 'svelte/transition';
+	import { fade } from 'svelte/transition';
 	import Projects from '../components/Main/Projects.svelte';
 	import Github from '../components/Main/Github.svelte';
 
@@ -22,10 +22,10 @@
 			window.removeEventListener('scroll', handleScroll);
 		};
 	});
-	function scrollToSkills() {
-		const skillsSection = document.getElementById('skills');
-		if (skillsSection) {
-			skillsSection.scrollIntoView({ behavior: 'smooth' });
+	function scrollToProjects() {
+		const projectSection = document.getElementById('projects');
+		if (projectSection) {
+			projectSection.scrollIntoView({ behavior: 'smooth' });
 		}
 	}
 </script>
@@ -133,17 +133,15 @@
 				</div>
 				<img src="/img/main/main.png" alt="Romain GUILLEMOT" class="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36">
 			</div>
-			{#if isVisible}
 
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 16" {...$$props}
-						 class="bg-blue-600 rounded-full h-12 w-12 mx-auto mt-16 animate-bounce text-slate-200"
-						 on:click={scrollToSkills}
+						 class="bg-blue-600 rounded-full h-12 w-12 mx-auto mt-16 animate-bounce text-slate-200 duration-300 hidden md:{isVisible ? 'block' : 'hidden'}"
+						 on:click={scrollToProjects}
 						 aria-label="Navigate to skills section" role="button" tabindex="0"
-						 transition:fly="{{ y: 20, duration: 300 }}">
+						 transition:fade="{{ duration: 300 }}">
 					<path fill="currentColor" d="M4.5 13c-.28 0-.5-.22-.5-.5v-9c0-.28.22-.5.5-.5s.5.22.5.5v9c0 .28-.22.5-.5.5" />
 					<path fill="currentColor" d="M4.5 14a.47.47 0 0 1-.35-.15l-3.5-3.5c-.2-.2-.2-.51 0-.71s.51-.2.71 0l3.15 3.15l3.15-3.15c.2-.2.51-.2.71 0s.2.51 0 .71l-3.5 3.5c-.1.1-.23.15-.35.15Z" />
 				</svg>
-			{/if}
 
 		</div>
 

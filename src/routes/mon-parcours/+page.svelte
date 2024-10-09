@@ -257,8 +257,8 @@
 					tags: ["Événement", "Rennes", "RPI"]
 				},
 				{
-					titre: "Développement pour la Banque Kard",
-					description: "Conception d'un client web privé pour la gestion bancaire de Kard.",
+					titre: "Développement d'un client bancaire",
+					description: "Conception d'un client web personnel pour la gestion bancaire de Kard.",
 					image: "/img/past/kard.png",
 					couleur: "#34D399",
 					tags: ["Banque", "Web"]
