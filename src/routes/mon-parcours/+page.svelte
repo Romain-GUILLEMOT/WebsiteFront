@@ -439,4 +439,3 @@
 	{/each}
 </div>
 
-<svelte:window on:keydown|preventDefault={onKeyDown} />
