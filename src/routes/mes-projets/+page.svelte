@@ -31,19 +31,7 @@
 
 
 	export let projects = [
-		{
-			image: '/img/projects/bagou450.png',
-			name: 'Bagou450',
-			done: true,
-			description: "Bagou450, mon ancienne entreprise, proposait un site e-commerce avec un système de téléchargement digital et de licences. Le site était construit avec React et Laravel.",
-			tags: ['Laravel', 'React', 'Commerce Électronique', 'SEO'],
-			domain: 'Développement Web',
-			buttons: [
-				{ name: 'Voir sur GitHub', link: 'https://github.com/Romain-GUILLEMOT/bagou450', color: 'bg-blue-600' },
-				{ name: 'Visiter le site', link: 'https://bagou450.com', color: 'bg-gray-600' }
-			],
-			source: true
-		},
+
 		{
 			image: '/img/projects/ozlaloc.png',
 			name: 'Ozlaloc',
@@ -57,9 +45,22 @@
 			source: false
 		},
 		{
+			image: '/img/projects/bagou450.png',
+			name: 'Bagou450',
+			done: true,
+			description: "Bagou450, mon ancienne entreprise, proposait un site e-commerce avec un système de téléchargement digital et de licences. Le site était construit avec React et Laravel.",
+			tags: ['Laravel', 'React', 'SEO'],
+			domain: 'Développement Web',
+			buttons: [
+				{ name: 'Voir sur GitHub', link: 'https://github.com/Romain-GUILLEMOT/bagou450', color: 'bg-blue-600' },
+				{ name: 'Visiter le site', link: 'https://bagou450.com', color: 'bg-gray-600' }
+			],
+			source: true
+		},
+		{
 			image: '/img/projects/hackaton2024.png',
 			name: 'Hackaton 2024',
-			description: "Projet réalisé lors du hackathon de SupDeVinci en collaboration avec Néosoft en 2024. J'ai appris à utiliser ArgoCD, Loki, Mimir, Tempo, ainsi que Otel.",
+			description: "Projet réalisé lors du hackathon de SupDeVinci en collaboration avec Néosoft en 2024. J'ai appris à utiliser ArgoCD, Loki, Mimir, Tempo, ainsi qu'Otel.",
 			tags: ['Kubernetes', 'ArgoCD', 'DevOps', 'Néosoft'],
 			domain: 'DevOps',
 			done: true,
@@ -73,6 +74,56 @@
 					name: 'Rapport Final',
 					link: 'https://s.craft.me/xBkQ6VTcAtxrhP',
 					color: 'bg-yellow-600'
+				}
+			],
+			source: true
+		},
+		{
+			image: '/img/projects/unraid.png',
+			name: 'HomeLab',
+			done: true,
+			description: "Un lab maison pour expérimenter avec la gestion des containers et des machines virtuelles, mis en place avec Unraid. Ce projet m'a permis de travailler sur l'optimisation des ressources et la gestion des services auto-hébergés.",
+			tags: ['Unraid', 'Containers', 'Virtualisation'],
+			domain: 'Infrastructure',
+			buttons: []
+		},
+		{
+			image: '/img/projects/zelkoa.png',
+			name: 'Zelkoa',
+			done: true,
+			description: "Zelkoa est un serveur Minecraft dédié à la survie et au jeu moddé. Ce projet m'a permis de découvrir la gestion d'un serveur de jeu et la configuration avancée de mods.",
+			tags: ['Minecraft', 'Java'],
+			domain: 'Gaming',
+			buttons: []
+		},
+		{
+			image: '/img/projects/cloudflare.png',
+			name: 'Cloudflare DNS Web',
+			done: true,
+			description: "Client web pour la gestion des DNS Cloudflare, développé dans le cadre d'un projet à SupDeVinci. L'application permet une gestion simplifiée des enregistrements DNS via une interface web.",
+			tags: ['Cloudflare', 'DNS', 'Développement Web'],
+			domain: 'Développement web',
+			buttons: [
+				{
+					name: 'Voir sur GitHub',
+					link: 'https://github.com/Romain-GUILLEMOT/CloudflareDNSManager',
+					color: 'bg-blue-600'
+				}
+			],
+			source: true
+		},
+		{
+			image: '/img/projects/locauto.png',
+			name: 'Locauto',
+			done: true,
+			description: "Site de location de voitures développé dans le cadre d'un projet à SupDeVinci. Ce projet inclut la gestion des réservations et des véhicules disponibles, avec une interface utilisateur fluide.",
+			tags: ['Laravel', 'React', 'Gestion de Projets'],
+			domain: 'Développement Web',
+			buttons: [
+				{
+					name: 'Voir sur GitHub',
+					link: 'https://github.com/Romain-GUILLEMOT/LocautoLaravel',
+					color: 'bg-blue-600'
 				}
 			],
 			source: true
@@ -102,7 +153,14 @@
 		"devops": { bg: "bg-gray-700", text: "text-white" },
 		"neosoft": { bg: "bg-blue-300", text: "text-white" },
 		"argocd": { bg: "bg-teal-600", text: "text-white" },
-		"commerce electronique": { bg: "bg-purple-400", text: "text-white" }
+		"commerce electronique": { bg: "bg-purple-400", text: "text-white" },
+		"containers": { bg: "bg-teal-500", text: "text-white" },
+		"virtualisation": { bg: "bg-indigo-700", text: "text-white" },
+		"minecraft": { bg: "bg-green-500", text: "text-white" },
+		"cloudflare": { bg: "bg-blue-600", text: "text-white" },
+		"dns": { bg: "bg-gray-500", text: "text-white" },
+		"discord": { bg: "bg-purple-600", text: "text-white" },
+		"automatisation": { bg: "bg-yellow-600", text: "text-black" }
 	};
 
 </script>
