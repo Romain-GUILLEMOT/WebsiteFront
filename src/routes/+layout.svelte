@@ -5,6 +5,8 @@
 	import Footer from '../components/Footer.svelte';
 
 	let showHeader = false;
+	export const prerender = true;
+
 
 	$: {
 		showHeader = $page.url.pathname !== '/';
