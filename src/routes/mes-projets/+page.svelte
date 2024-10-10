@@ -59,7 +59,7 @@
 		},
 		{
 			image: '/img/projects/hackaton2024.png',
-			name: 'Hackaton 2024',
+			name: 'Hackathon 2024',
 			description: "Projet réalisé lors du hackathon de SupDeVinci en collaboration avec Néosoft en 2024. J'ai appris à utiliser ArgoCD, Loki, Mimir, Tempo, ainsi qu'Otel.",
 			tags: ['Kubernetes', 'ArgoCD', 'DevOps', 'Néosoft'],
 			domain: 'DevOps',
