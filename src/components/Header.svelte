@@ -29,7 +29,7 @@
 			<a href="/" class="text-sm font-semibold leading-6 text-gray-900 ">Accueil</a>
 			<a href="/mes-projets" class="text-sm font-semibold leading-6 {($page.url.pathname.startsWith('/mes-projets')) ? 'text-blue-500' : 'text-gray-900'} ">Mes Projets</a>
 			<a href="/mon-parcours" class="text-sm font-semibold leading-6 {($page.url.pathname.startsWith('/mon-parcours')) ? 'text-blue-500' : 'text-gray-900'}">Mon Parcours</a>
-			<a href="/alternance" class="text-sm font-semibold leading-6 {($page.url.pathname.startsWith('/alternance')) ? 'text-blue-500' : 'text-gray-900'}">Alternance / CV</a>
+			<a href="/alternance" class="text-sm font-semibold leading-6 {($page.url.pathname.startsWith('/alternance')) ? 'text-blue-500' : 'text-red-900'}">Alternance / CV</a>
 
 		</div>
 		<div class="hidden lg:flex lg:flex-1 lg:justify-end gap-x-4">
