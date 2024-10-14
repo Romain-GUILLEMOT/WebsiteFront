@@ -58,7 +58,7 @@
 
 				<a href="/mes-projets" class="text-sm font-semibold leading-6 text-gray-900">Mes Projets</a>
 				<a href="/mon-parcours" class="text-sm font-semibold leading-6 text-gray-900">Mon Parcours</a>
-				<a href="/alternance" class="text-sm font-semibold leading-6 text-gray-900">Alternance</a>
+				<a href="/alternance" class="text-sm font-semibold leading-6 text-red-500">Alternance / CV </a>
 
 			</div>
 			<div class="hidden lg:flex lg:flex-1 lg:justify-end gap-x-4">
@@ -97,7 +97,7 @@
 
 								<a href="/mes-projets" on:click={editDialog} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Mes projets</a>
 								<a href="/mon-parcours" on:click={editDialog} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Mon parcours</a>
-								<a href="/alternance" on:click={editDialog} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Alternances</a>
+								<a href="/alternance" on:click={editDialog} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-red-500 hover:bg-gray-50">Alternance / CV</a>
 
 							</div>
 							<div class="py-6 flex gap-x-4 justify-end">
