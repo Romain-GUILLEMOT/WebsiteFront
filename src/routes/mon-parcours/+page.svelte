@@ -395,15 +395,52 @@
 					tags: ["Gestion de projet", "Études"]
 				},
 				{
+					"titre": "Développement d'un Kernel Linux",
+					"description": "Personnalisation et adaptation du kernel Linux pour une Samsung Galaxy Tab S4, permettant sa compatibilité avec PostMarketOS.",
+					"image": "/img/past/linux.png",
+					"couleur": "#FF2D20",
+					"tags": ["Linux", "Kernel", "PostMarketOS"]
+				},
+				{
 					titre: "Portfolio en Ligne",
 					description: "Création du site romain-guillemot.dev comme portfolio et CV professionnel en ligne.",
 					image: "/img/logo.png",
 					couleur: "#FF2D20",
 					tags: ["Portfolio", "CV"]
+				},
+
+			]
+		},
+		{
+			annee: "2025",
+			age: "19 ans - 20 ans",
+			details: [
+				{
+					"titre": "Développement d'un CRM pour Ozlaloc",
+					"description": "Conception et développement d'un CRM complet pour Ozlaloc, utilisant Svelte pour le front-end et Laravel pour le back-end.",
+					"image": "/img/past/oztrack.png",
+					"couleur": "#814700",
+					"tags": ["Svelte", "Laravel", "Développement web", "Ozlaloc"]
+				},
+				{
+					"titre": "Site Web Location Barnum",
+					"description": "Création du site web locationbarnum.fr pour Ozlaloc, avec une intégration en React et Laravel. (Logo en cours de création).",
+					"image": "/img/past/ozlaloc.png",
+					"couleur": "#FFA500",
+					"tags": ["React", "Laravel", "Développement web", "Ozlaloc"]
+				},
+				{
+					"titre": "Troisième Année à SupDeVinci",
+					"description": "Entrée en troisième année de Bachelor à SupDeVinci, avec une spécialisation en systèmes et réseaux, visant l'obtention du diplôme Bachelor Bac+3 en fin d'année (Juin 2026).",
+					"image": "/img/past/supdevinci.png",
+					"couleur": "#1E90FF",
+					"tags": ["Systèmes", "Réseaux", "Études"]
 				}
 			]
-		}
+		},
 	];
+	parcours = parcours.reverse();
+	const currentYear = new Date().getFullYear();
 
 </script>
 
@@ -426,18 +463,30 @@
 		<div class="border rounded-lg p-4 shadow-lg">
 				<h2 class="text-2xl font-semibold mb-4 " style="color: {anneeData.details[0].couleur};">{anneeData.annee}</h2>
 			<span class="rounded-full bg-green-100 text-green-800 px-3 py-1 text-xs font-semibold">{anneeData.age}</span>
-
+			{#if +anneeData.annee > currentYear}
+		<span class="ml-2 inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-semibold">
+			Projection
+		</span>
+			{/if}
 			{#each anneeData.details as detail}
 				<div class="mb-4 mt-4">
 					<img src="{detail.image}" alt="{detail.titre}" class="max-h-24 min-h-16 min-w-16 max-w-24 mx-auto mb-2" />
-					<h3 class="text-xl font-bold">{detail.titre}</h3>
-					<div class="my-2 ">
+					<h3 class="text-xl font-bold flex items-center justify-center">
+						{detail.titre}
+
+					</h3>
+					<div class="my-2">
 						{#each detail.tags as tag}
-							<span class={`tag ${tagColors[normalizeTag(tag)]?.bg || 'bg-gray-400'} ${tagColors[normalizeTag(tag)]?.text || 'text-white'} rounded-md px-2 py-1 mx-2`}>{tag}</span>
+			<span
+				class={`tag ${tagColors[normalizeTag(tag)]?.bg || 'bg-gray-400'} ${
+					tagColors[normalizeTag(tag)]?.text || 'text-white'
+				} rounded-md px-2 py-1 mx-2`}
+			>
+				{tag}
+			</span>
 						{/each}
 					</div>
 					<p class="text-gray-600">{detail.description}</p>
-
 				</div>
 			{/each}
 		</div>

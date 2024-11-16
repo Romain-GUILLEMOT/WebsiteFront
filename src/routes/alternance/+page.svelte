@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Alternance - Romain GUILLEMOT</title>
+	<title>Alternance / Stage - Romain GUILLEMOT</title>
 	<meta name="description" content="Alternance de Romain GUILLEMOT, étudiant en deuxième année de Bachelor à SupDeVinci Rennes" />
 </svelte:head>
 
@@ -40,19 +40,20 @@
 			<!-- Texte et Informations -->
 			<div>
 				<div class="text-base leading-7 text-gray-700 lg:max-w-lg">
-					<p class="text-base font-semibold leading-7 text-indigo-600">Alternance</p>
-					<h1 class="mt-2 text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-						À la recherche d'une alternance en développement (ou DevOps)
+					<p class="text-base font-semibold leading-7 text-indigo-600">Alternance ou Stage</p>
+					<h1 class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+						À la recherche d’une alternance ou d’un stage en systèmes et réseaux, disponible à partir de mai 2025.
 					</h1>
 					<div class="max-w-xl">
 						<p class="mt-6 text-lg">
-							Actuellement étudiant en <strong class="font-bold">deuxième année de Bachelor</strong> à SupDeVinci Rennes, je suis passionné par le développement logiciel et l'administration des systèmes. <strong class="font-bold">Je recherche une alternance à partir de mai 2024</strong> pour mettre à profit mes compétences en développement, acquérir de l'expérience pratique, et continuer à me perfectionner.
+							Actuellement étudiant en <strong class="font-bold">deuxième année de Bachelor</strong> à SupDeVinci Rennes, je suis passionné par l'administration des systèmes et les infrastructures réseau.
+							<strong class="font-bold">Je suis à la recherche d'une alternance ou d'un stage à partir de mai 2025</strong>, afin de mettre en pratique mes compétences techniques, enrichir mon expérience professionnelle et m'engager pleinement dans des projets concrets.
 						</p>
 						<p class="mt-8 text-lg">
-							Bien que mon objectif principal soit de m'épanouir dans le développement, j'ai également une bonne compréhension des réseaux et de l'infrastructure. À l'avenir, je souhaite m'orienter vers le <strong class="font-bold">DevOps</strong> pour allier mes compétences en développement à une gestion optimisée des systèmes, en facilitant la collaboration entre les équipes.
+							Mon ambition est d'évoluer vers un rôle en <strong class="font-bold">DevOps</strong>, où je pourrais combiner ma maîtrise des systèmes et réseaux avec mes compétences en développement pour optimiser les processus de déploiement et renforcer la collaboration entre les équipes techniques.
 						</p>
 						<p class="mt-8 text-lg">
-							Si vous recherchez un développeur motivé et passionné, prêt à s'engager pleinement et à évoluer au sein de votre entreprise, je serais heureux de discuter de l'opportunité de rejoindre votre équipe. Ensemble, nous pourrons bâtir des solutions innovantes et durables.
+							Si vous recherchez un étudiant motivé, autonome et passionné par les défis technologiques, je serais ravi de discuter d'une opportunité au sein de votre entreprise. Ensemble, nous pourrons concevoir et mettre en œuvre des solutions innovantes et performantes, adaptées aux enjeux actuels.
 						</p>
 					</div>
 				</div>
@@ -90,7 +91,7 @@
 						 class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150">
 						Contactez-moi
 					</a>
-					<a href="/CV.pdf"
+					<a href="https://assets.romain-guillemot.dev/cv.pdf" target="_blank"
 						 class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150">
 						Voir mon CV
 						<svg class="ml-2 -mr-1 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
